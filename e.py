@@ -8,6 +8,7 @@ class SquareApp:
     def __init__(self, root):
         self.root = root
         self.root.title("ER-diagram")
+
         self.er_diagram = ERDiagram([], [])
 
         self.canvas = tk.Canvas(root, width=800, height=600, bg="white")
